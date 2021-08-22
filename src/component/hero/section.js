@@ -56,7 +56,7 @@ export default function Section() {
                   <a href="/" className="font-medium text-indigo-600 hover:text-indigo-500">
                     Log in
                   </a>
-                  
+
                 </div>
               </nav>
             </div>
@@ -69,6 +69,7 @@ export default function Section() {
               leave="duration-100 ease-in"
               leaveFrom="opacity-100 scale-100"
               leaveTo="opacity-0 scale-95"
+
             >
               <Popover.Panel
                 focus
@@ -81,12 +82,14 @@ export default function Section() {
                         className="h-8 w-auto"
                         src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
                         alt=""
+
                       />
                     </div>
                     <div className="-mr-2">
                       <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                         <span className="sr-only">Close main menu</span>
                         <XIcon className="h-6 w-6" aria-hidden="true" />
+                        
                       </Popover.Button>
                     </div>
                   </div>
