@@ -4,10 +4,11 @@ import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
 
 const navigation = [
-  { name: 'Dashboard', href: '#', current: true },
-  { name: 'Team', href: '#', current: false },
-  { name: 'Projects', href: '#', current: false },
-  { name: 'Calendar', href: '#', current: false },
+  { name: 'INICIO', href: '#', current: true },
+  { name: 'PRODUCTOS', href: '#', current: false },
+  { name: 'CLIENTES', href: '#', current: false },
+  { name: 'NOSOTROS', href: '#', current: false },
+  { name: 'CONTACTO', href: '#', current: false },
 ]
 
 function classNames(...classes) {
@@ -16,7 +17,7 @@ function classNames(...classes) {
 
 export default function NavBar() {
   return (
-    <Disclosure as="nav" className="bg-gray-800">
+    <Disclosure as="nav" className="bg-gray-900">
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
