@@ -1,12 +1,15 @@
 import AwesomeSlider from 'react-awesome-slider';
 import withAutoplay from 'react-awesome-slider/dist/autoplay';
 
+import LayoutMain from './component/layout/Main';
+import Hero from './component/sections/Hero';
+import OptionsSection from './component/sections/OptionsSection';
+
 import 'react-awesome-slider/dist/custom-animations/fall-animation.css';
 import 'react-awesome-slider/dist/styles.css';
 
-import LayoutMain from './component/layout/Main';
-import Section from './component/hero/section';
 const AutoplaySlider = withAutoplay(AwesomeSlider);
+
 
 
 function App() {
@@ -22,7 +25,8 @@ function App() {
         <div data-src="https://cdn.shopify.com/s/files/1/0419/1525/collections/2800x890-Women-Care-Leather_2800x890.jpg?v=1534316025" />
         <div data-src="https://www.greywalkshoes.com/front/img/grey-banner-new.webp" />
       </AutoplaySlider>
-      <Section />
+      <OptionsSection />
+      <Hero />
     </LayoutMain>
   );
 }
