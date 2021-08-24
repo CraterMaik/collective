@@ -5,6 +5,7 @@ const Main = ({ children }) => {
   return (
     <React.Fragment>
       <Navbar />
+      
       <main>
         { children }
       </main>

@@ -1,5 +1,4 @@
-/* This example requires Tailwind CSS v2.0+ */
-import { Fragment } from 'react'
+
 import { Disclosure } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import WhatsappIcon from 'simple-icons/icons/whatsapp';
@@ -7,7 +6,7 @@ import MessengerIcon from 'simple-icons/icons/messenger';
 
 const navigation = [
   { name: 'INICIO', href: '#', current: true },
-  { name: 'PRODUCTOS', href: '#', current: false },
+  { name: 'PRODUCTOS', href: '#productos', current: false },
   { name: 'CLIENTES', href: '#', current: false },
   { name: 'NOSOTROS', href: '#', current: false },
   { name: 'CONTACTO', href: '#', current: false },
