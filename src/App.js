@@ -6,6 +6,7 @@ import RegisterSection from './component/sections/RegisterSection';
 import ClientsSection from './component/sections/ClientsSection';
 import AboutSection from './component/sections/AboutSection';
 import ContactSection from './component/sections/ContactSection';
+import BlogSection from './component/sections/BlogSection';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       
       <OptionsSection />
       <ProductsSection />
+      <BlogSection />
       <RegisterSection />
       <ClientsSection />
       <AboutSection />
